@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~datatables.net-bs4/css/dataTables.bootstrap4';
+
+body {
+    background-color: #f0f0f0;
+    color: #222020;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_need {
+    flex-grow: 2;
+}
+
+// .block-footers_need{
+//     min-height: 10vh;
+// }
